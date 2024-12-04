@@ -1,0 +1,20 @@
+
+*{
+    background-color: rgb(190, 204, 215);
+}
+.middle{
+
+text-align: center
+}
+
+.right{
+    color: rebeccapurple;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right
+    }
+
+#font{
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
