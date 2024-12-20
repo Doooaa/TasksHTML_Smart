@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles/formStyle.css">
+</head>
+<body>
+
+<form action="demo1.html">
+
+    <table>
+      <th class="buttons">REGISTRATION FORM</th>       
+        <tr>
+            <td><label for="fname">First Name:</label></td>
+            <td><input type="text" name="fname" id="fname" required></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name:</label></td>
+            <td><input type="text" name="lname" id="lname" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" id="password" name="password" required></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><label for="male">Gender</label></td>
+            <td> <input type="radio" id="male" name="gender" value="male" required>Male</td>
+           
+        </tr>
+        <tr>
+         
+            <td><input type="radio" id="female" name="gender" value="female" required>Female</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="country">Country:</label>
+            </td>
+            <td>
+             
+                <select id="country" name="country" required>
+                    <optgroup label="Africa">
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Cameroon">Cameroon</option>
+                    </optgroup>
+                    <optgroup label="Canada">
+                        <option value="Ontario">Ontario</option>
+                        <option value="Quebec">Quebec</option>
+                        <option value="Alberta">Alberta</option>
+                        <option value="Manitoba">Manitoba</option>
+                        <option value="Saskatchewan">Saskatchewan</option>
+                        <option value="British Columbia">British Columbia</option>
+                    </optgroup>
+                    <optgroup label="UK">
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="South Africa">South Africa</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="bod">Birthday:</label></td>
+            <td><input type="date" id="bod" name="bod" required></td>
+        </tr>
+        <tr>
+            <td>
+                <div >
+                    <label for="skills">Skills:</label>
+                    <ul id="skills">
+                        <li><input type="checkbox" name="sports" id="sports"><label for="sports">Sports</label></li>
+                        <li><input type="checkbox" name="cooking" id="cooking"><label for="cooking">Cooking</label></li>
+                        <li><input type="checkbox" name="coding" id="coding"><label for="coding">Coding</label></li>
+                        <li><input type="checkbox" name="reading" id="reading"><label for="reading">Reading</label></li>
+                        <li><input type="checkbox" name="painting" id="painting"><label for="painting">Painting</label></li>
+                        <li><input type="checkbox" name="other" id="other"><label for="other">Other</label></li>
+                    </ul>
+                </div>
+            </td>
+        </tr> 
+        <tr>
+            <td><label for="bio">Bio:</label></td>
+            <td><textarea id="bio" name="bio" rows="4" cols="50" required></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="buttons">
+                <input type="reset">
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>

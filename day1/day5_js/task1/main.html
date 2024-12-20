@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="noContextMenu">The context menu has been disabled on this paragraph.</p>
+    <script>
+        const noContext = document.getElementById("noContextMenu");
+
+        noContext.addEventListener("contextmenu", function () {
+            //   e.preventDefault(); or void(0);
+            alert("You've disabled the context menu!");
+            return false;
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="formStyle.css">
+    <style>
+         form{
+            margin: 40px auto;
+            padding: 50px 30px;
+            text-align: center;
+         }
+    </style>
+  
+</head>
+<body>
+
+<form action="" method="post">
+    <h2>Login Form</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+
+    <label>
+        <input type="checkbox" id="remember" name="remember" accesskey="R"> <u>R</u>emember Me
+    </label>
+
+    <div class="buttons">
+        <input type="submit" value="Login" id="submitButton">
+    </div>
+</form>
+  <script src="task2.js"></script>
+</body>
+</html>

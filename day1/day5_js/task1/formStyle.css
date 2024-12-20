@@ -1,0 +1,46 @@
+
+form {
+    /* background-color:white; */
+    width: 600px;
+    border: 2px solid rgba(178, 173, 173, 0.689);
+    margin: auto;
+    text-align: center;
+
+}
+ul{
+    list-style-type: none;
+}
+label{
+    padding-left: 20px;
+}
+#country {
+    
+    /* background-color: rgb(106, 106, 241); */
+    padding: 6px 105px;
+  
+}
+#bod {
+    
+    /* background-color: blue; */
+    padding: 5px 115px;
+  
+}
+.buttons{
+  /* margin: auto; */
+    text-align: center;
+}
+input[type="submit"],input[type="reset"]{
+    background-color: rgba(16, 118, 98, 0.729);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+   
+}
+input{
+margin-top: 12px;
+/* background-color: blue; */
+padding: 6px 90px;
+border: 2px solid rgba(178, 173, 173, 0.689);
+border-radius: 4px;
+}

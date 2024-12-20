@@ -1,0 +1,29 @@
+*{
+    
+    font-family: 'Roboto', sans-serif;
+}
+#registerForm{
+    margin: auto;
+    padding: 25px;
+    width: 500px;
+    border: 2px solid rgba(110, 106, 106, 0.732);
+}
+#registerForm input {
+ /* border:none; */
+ margin: 6px  4px;
+ border-radius: 5px;
+ border: 2px solid rgba(128, 128, 128, 0.629);
+ padding: 10px 70px;
+}
+#registerForm input[type=submit]{
+  margin-top: 40px;
+  margin-left: 80px;
+  background-color: cornflowerblue;
+  padding: 20px 100px;
+  border-radius: 5px;
+}
+.middle{
+padding:20px 0 ;
+width: 400px;
+margin: auto;
+}
