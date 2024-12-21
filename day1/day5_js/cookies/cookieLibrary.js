@@ -57,14 +57,3 @@ function  hasCookie(cookieName){
 
 }
 
-//extra
-var btn=document.getElementById("submitButton");
-btn.addEventListener("click", function(){
-    deleteCookie("userName");
-    deleteCookie("Gender");
-    deleteCookie("Times");
-    name_genderToCoockie();
-
-    location.assign("page2.html");
-
-});
