@@ -1,0 +1,11 @@
+#RoomDiv {
+   
+    background-color: #f8f5f0;
+    /* border: 1px solid rgb(0, 255, 76); */
+}
+#roomDiv table {
+    width: 100%;
+    margin: auto;
+    background-color: #f8f5f0;
+    border-collapse: collapse;
+}
